@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TriSix Cipher Encryption</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -10,27 +10,27 @@
   <div class="container">
     <h1>TriSix Cipher Encryption</h1>
     <p class="description">Encrypts/decrypts text using alternating shifts of 3 and 6 for paired letters</p>
-    
+
     <div class="input-group">
       <label for="input-text">Enter Text:</label>
       <textarea id="input-text" placeholder="Enter text to encrypt or decrypt..."></textarea>
     </div>
-    
+
     <div class="buttons">
       <button id="encrypt-btn">Encrypt</button>
       <button id="decrypt-btn">Decrypt</button>
       <button id="clear-btn">Clear</button>
     </div>
-    
+
     <div class="input-group">
       <label for="result">Result:</label>
       <div id="result" class="result"></div>
     </div>
-    
+
     <div class="cipher-info">
       <h3>How TriSix Cipher Works:</h3>
       <p>Letters are paired in the alphabet and each pair is shifted by either 3 or 6 positions:</p>
-      
+
       <table>
         <tr><th>Letter Pairs</th><th>Shift</th></tr>
         <tr class="pair-3"><td>AB</td><td>3</td></tr>
@@ -47,7 +47,7 @@
         <tr class="pair-6"><td>WX</td><td>6</td></tr>
         <tr class="pair-3"><td>YZ</td><td>3</td></tr>
       </table>
-      
+
       <p>Example:</p>
       <ul>
         <li>Plaintext: MARK LESTER</li>
@@ -55,6 +55,7 @@
       </ul>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
